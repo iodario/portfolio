@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav id="nav" class="navbar navbar-expand-md">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon navbar-toggler-icon fa fa-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre-mi.html">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="proyectos.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="contacto">
+            <div class="row">
+                <div class="col-12 my-4">
+                    <h1>¡Trabajemos Juntos!</h1>
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <h3>
+                        Para más detalles sobre mi trabajo podés ver mi
+                        <span><a href="https://www.linkedin.com/in/dario-turchi/" target="_blank"
+                                rel="noopener noreferrer"> Linkedin</a></span>, descargar mi <span><a
+                                href="files/CURRICULUM DEV.pdf" target="_blank" rel="noopener noreferrer"> CV</a></span>
+                        o mandarme un <span><a href="#form" target="_self" rel="noopener noreferrer">mensaje</a>
+                            </span>.
+                    </h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-10 my-5">
+                    <form id="form" action="">
+                        <div class="row">
+                            <div class="form-group col-6">
+                                <input type="text" name="txtNombre" id="txtNombre" class="form-control"
+                                    placeholder="NOMBRE" required>
+                            </div>
+                            <div class="form-group col-6">
+                                <input type="email" name="txtCorreo" id="txtCorreo" class="form-control"
+                                    placeholder="EMAIL" required>
+                            </div>
+                            <div class="form-group col-12">
+                                <input type="text" name="txtAsunto" id="txtAsunto" class="form-control"
+                                    placeholder="ASUNTO" required>
+                            </div>
+                            <div class="form-group col-12">
+                                <textarea name="txtMensaje" id="txtMensaje" class="form-control" rows="7" cols="87"
+                                    placeholder="MENSAJE"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="form-group col-1">
+                                <input type="submit" value="ENVIAR" class="btn">
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="row py-5">
+                <div class="col-12 col-sm-4 text-sm-left text-center">
+                    <p>©Todos los derechos reservados<br> 2020</p>
+                </div>
+                <div class="col-12 col-sm-4 text-center py-4 py-sm-2">
+                    <a href="https://api.whatsapp.com/send?phone=542234492977&amp;text=Hola" target="_blank"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/dario-turchi/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/iodario" target="_blank"><i class="fab fa-github"></i></a>
+
+                </div>
+                <div class="col-12 col-sm-4">
+                    Patrocinado por <br>
+                    <span><a href="http://https://depcsuite.com/" target="_blank" rel="noopener noreferrer"></a> DePc
+                        Suite</span>
+                </div>
+
+            </div>
+        </footer>
+
+
+    </div>
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
