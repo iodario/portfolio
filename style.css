@@ -1,13 +1,12 @@
 body{
     background: #D8D8D8;
-    font-family: 'Montserrat', Helvetica, sans-serif ;
+    font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
-nav .active{
+nav.active{
     font-weight: bold;
     text-decoration:underline;
-
   }
 
 nav{
@@ -20,6 +19,7 @@ nav{
     font-size: 20px;
     width: 250px;
     text-align: center;
+    text-transform: uppercase;
 }
 nav-link :hover{
     color: rgb(12, 5, 47);
@@ -32,13 +32,20 @@ h1 {
     color: rgb(45, 45, 45);
     font-weight: 800;
 }
+h2{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 500;
+    
+    }
 
-span{
-    text-decoration:underline;
-}
+
 
 /* --------------------------footer------------------------------------ */
 
+footer {
+    background-color: white;
+}
 footer p{
     text-decoration: underline;
 
@@ -58,6 +65,7 @@ footer i{
     padding: 8px 0 0 0;
     border-radius: 80px;
     margin: 0 15px;
+    background-color: rgb(168, 166, 166);
 }
 
 
@@ -84,9 +92,9 @@ footer i{
 }
 
 
-@media (max-width: 700px) {/* Para mobile */
+@media (max-width: 700px) {
     h1{
-        font-size: 40px;
+        font-size: 35px;
     }
 
     #contacto h2{
@@ -95,3 +103,8 @@ footer i{
     }
 }
 
+@media (max-width: 700px) {
+    h3{
+        font-size: 25px;
+    }
+}
