@@ -1,23 +1,33 @@
 body{
     background: #D8D8D8;
     font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding:0px;
 }
 
 
-nav.active{
+.navbar-toggler{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav .active{
     font-weight: bold;
     text-decoration:underline;
   }
 
 nav{
-    padding: 15px 0 0 0;
+    padding: 15px 0 0 0 !important;
 }
+
+
+
 
 .nav-link {
     color: #4B4B4B;
     text-decoration: none;
     font-size: 20px;
-    width: 250px;
+    width: 220px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -73,7 +83,7 @@ footer i{
 
 #proyectos img{
     min-height: 260px;
-    /* width: 100%; */
+    width: 100%;
 }
 
 /* -----------------------Formulario-------------------------------------- */
@@ -89,7 +99,76 @@ footer i{
     background-color: black;
     color:white;
     border-radius: 0px;
+
 }
+
+/* -------------------------Sobre Mi----------------------------------- */
+
+.img-circle{
+    border-radius:40%;
+    box-shadow: 2px 2px 10px #666; 
+    /* margin: 10px; */
+    max-height: 200px;
+}
+
+#about .bg-white{
+    min-height: 298px;
+}
+#about h3{
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#about .fa-code{
+    background-color: rgb(89, 89, 92);
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+}
+
+#about .fa-database{
+    background-color: rgb(89, 89, 92);
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+}
+
+#about .fa-language{
+    background-color: rgb(89, 89, 92);
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+}
+
+#about .fa-window-restore{
+    background-color: rgb(89, 89, 92);
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+}
+#about .fa-puzzle-piece{
+    background-color: rgb(89, 89, 92);
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.reference{
+    text-decoration: underline;
+}
+
+
+
+#about i {
+    background-color: white;
+    color:  rgb(89, 89, 92); 
+}
+
+#about p{
+    font-size: 25px;
+}
+
 
 
 @media (max-width: 700px) {
@@ -107,4 +186,9 @@ footer i{
     h3{
         font-size: 25px;
     }
+    #about p{
+        font-size: 20px;
+    }
+    
+
 }
