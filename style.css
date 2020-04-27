@@ -170,6 +170,19 @@ footer i{
 }
 
 
+/* --------------------Bienvenido------------------------------ */
+
+main{
+    background: url('files/Fondos-10.png');
+
+}
+
+
+
+
+
+
+
 
 @media (max-width: 700px) {
     h1{
